@@ -6,6 +6,36 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B3C137E62F7B542E0071997A /* ConditionDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C137CD2F7B542E0071997A /* ConditionDetailsView.swift */; };
+		B3C137E72F7B542E0071997A /* ProviderConditionDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C137E12F7B542E0071997A /* ProviderConditionDetailsView.swift */; };
+		B3C137E82F7B542E0071997A /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C137D82F7B542E0071997A /* MapViewModel.swift */; };
+		B3C137E92F7B542E0071997A /* PatientsWelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C137DE2F7B542E0071997A /* PatientsWelcomeView.swift */; };
+		B3C137EA2F7B542E0071997A /* EffiCareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C137D12F7B542E0071997A /* EffiCareApp.swift */; };
+		B3C137EB2F7B542E0071997A /* HealthcarePinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C137D22F7B542E0071997A /* HealthcarePinModel.swift */; };
+		B3C137EC2F7B542E0071997A /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C137E22F7B542E0071997A /* SignUpView.swift */; };
+		B3C137ED2F7B542E0071997A /* AddConditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C137CA2F7B542E0071997A /* AddConditionView.swift */; };
+		B3C137EE2F7B542E0071997A /* PatientsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C137DD2F7B542E0071997A /* PatientsListView.swift */; };
+		B3C137EF2F7B542E0071997A /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C137DA2F7B542E0071997A /* MessagesView.swift */; };
+		B3C137F02F7B542E0071997A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C137D62F7B542E0071997A /* LoginView.swift */; };
+		B3C137F12F7B542E0071997A /* PatientConditionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C137DC2F7B542E0071997A /* PatientConditionsView.swift */; };
+		B3C137F22F7B542E0071997A /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C137D92F7B542E0071997A /* MessageModel.swift */; };
+		B3C137F32F7B542E0071997A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C137E02F7B542E0071997A /* ProfileView.swift */; };
+		B3C137F42F7B542E0071997A /* HealthcareProviderWelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C137D42F7B542E0071997A /* HealthcareProviderWelcomeView.swift */; };
+		B3C137F52F7B542E0071997A /* MapPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C137D72F7B542E0071997A /* MapPageView.swift */; };
+		B3C137F62F7B542E0071997A /* PatientViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C137DF2F7B542E0071997A /* PatientViewModel.swift */; };
+		B3C137F72F7B542E0071997A /* HealthcareProviderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C137D32F7B542E0071997A /* HealthcareProviderViewModel.swift */; };
+		B3C137F82F7B542E0071997A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C137D02F7B542E0071997A /* ContentView.swift */; };
+		B3C137F92F7B542E0071997A /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C137CC2F7B542E0071997A /* AuthenticationViewModel.swift */; };
+		B3C137FA2F7B542E0071997A /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C137E42F7B542E0071997A /* UserViewModel.swift */; };
+		B3C137FB2F7B542E0071997A /* ConditionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C137CE2F7B542E0071997A /* ConditionModel.swift */; };
+		B3C137FC2F7B542E0071997A /* ConditionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C137CF2F7B542E0071997A /* ConditionsView.swift */; };
+		B3C137FD2F7B542E0071997A /* MessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C137DB2F7B542E0071997A /* MessageViewModel.swift */; };
+		B3C137FE2F7B542E0071997A /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C137E32F7B542E0071997A /* UserModel.swift */; };
+		B3C137FF2F7B542E0071997A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C137D52F7B542E0071997A /* LocationManager.swift */; };
+		B3C138002F7B542E0071997A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C137CB2F7B542E0071997A /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B3601ED52EB4167B0060BA05 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,25 +54,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B3601EC72EB416790060BA05 /* FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3601ED42EB4167B0060BA05 /* FinalProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3601EDE2EB4167B0060BA05 /* FinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3601EC72EB416790060BA05 /* EffiCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EffiCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3601ED42EB4167B0060BA05 /* EffiCareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EffiCareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3601EDE2EB4167B0060BA05 /* EffiCareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EffiCareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C137CA2F7B542E0071997A /* AddConditionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddConditionView.swift; sourceTree = "<group>"; };
+		B3C137CB2F7B542E0071997A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3C137CC2F7B542E0071997A /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		B3C137CD2F7B542E0071997A /* ConditionDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionDetailsView.swift; sourceTree = "<group>"; };
+		B3C137CE2F7B542E0071997A /* ConditionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionModel.swift; sourceTree = "<group>"; };
+		B3C137CF2F7B542E0071997A /* ConditionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionsView.swift; sourceTree = "<group>"; };
+		B3C137D02F7B542E0071997A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B3C137D12F7B542E0071997A /* EffiCareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffiCareApp.swift; sourceTree = "<group>"; };
+		B3C137D22F7B542E0071997A /* HealthcarePinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthcarePinModel.swift; sourceTree = "<group>"; };
+		B3C137D32F7B542E0071997A /* HealthcareProviderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthcareProviderViewModel.swift; sourceTree = "<group>"; };
+		B3C137D42F7B542E0071997A /* HealthcareProviderWelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthcareProviderWelcomeView.swift; sourceTree = "<group>"; };
+		B3C137D52F7B542E0071997A /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		B3C137D62F7B542E0071997A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B3C137D72F7B542E0071997A /* MapPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPageView.swift; sourceTree = "<group>"; };
+		B3C137D82F7B542E0071997A /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		B3C137D92F7B542E0071997A /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		B3C137DA2F7B542E0071997A /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		B3C137DB2F7B542E0071997A /* MessageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewModel.swift; sourceTree = "<group>"; };
+		B3C137DC2F7B542E0071997A /* PatientConditionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientConditionsView.swift; sourceTree = "<group>"; };
+		B3C137DD2F7B542E0071997A /* PatientsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsListView.swift; sourceTree = "<group>"; };
+		B3C137DE2F7B542E0071997A /* PatientsWelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsWelcomeView.swift; sourceTree = "<group>"; };
+		B3C137DF2F7B542E0071997A /* PatientViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientViewModel.swift; sourceTree = "<group>"; };
+		B3C137E02F7B542E0071997A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B3C137E12F7B542E0071997A /* ProviderConditionDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderConditionDetailsView.swift; sourceTree = "<group>"; };
+		B3C137E22F7B542E0071997A /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		B3C137E32F7B542E0071997A /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		B3C137E42F7B542E0071997A /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B3601EC92EB416790060BA05 /* FinalProject */ = {
+		B3601ED72EB4167B0060BA05 /* EffiCareTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FinalProject;
+			path = EffiCareTests;
 			sourceTree = "<group>";
 		};
-		B3601ED72EB4167B0060BA05 /* FinalProjectTests */ = {
+		B3601EE12EB4167B0060BA05 /* EffiCareUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FinalProjectTests;
-			sourceTree = "<group>";
-		};
-		B3601EE12EB4167B0060BA05 /* FinalProjectUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FinalProjectUITests;
+			path = EffiCareUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +127,9 @@
 		B3601EBE2EB416790060BA05 = {
 			isa = PBXGroup;
 			children = (
-				B3601EC92EB416790060BA05 /* FinalProject */,
-				B3601ED72EB4167B0060BA05 /* FinalProjectTests */,
-				B3601EE12EB4167B0060BA05 /* FinalProjectUITests */,
+				B3C137E52F7B542E0071997A /* EffiCare */,
+				B3601ED72EB4167B0060BA05 /* EffiCareTests */,
+				B3601EE12EB4167B0060BA05 /* EffiCareUITests */,
 				B3601EC82EB416790060BA05 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,19 +137,53 @@
 		B3601EC82EB416790060BA05 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B3601EC72EB416790060BA05 /* FinalProject.app */,
-				B3601ED42EB4167B0060BA05 /* FinalProjectTests.xctest */,
-				B3601EDE2EB4167B0060BA05 /* FinalProjectUITests.xctest */,
+				B3601EC72EB416790060BA05 /* EffiCare.app */,
+				B3601ED42EB4167B0060BA05 /* EffiCareTests.xctest */,
+				B3601EDE2EB4167B0060BA05 /* EffiCareUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B3C137E52F7B542E0071997A /* EffiCare */ = {
+			isa = PBXGroup;
+			children = (
+				B3C137CA2F7B542E0071997A /* AddConditionView.swift */,
+				B3C137CB2F7B542E0071997A /* Assets.xcassets */,
+				B3C137CC2F7B542E0071997A /* AuthenticationViewModel.swift */,
+				B3C137CD2F7B542E0071997A /* ConditionDetailsView.swift */,
+				B3C137CE2F7B542E0071997A /* ConditionModel.swift */,
+				B3C137CF2F7B542E0071997A /* ConditionsView.swift */,
+				B3C137D02F7B542E0071997A /* ContentView.swift */,
+				B3C137D12F7B542E0071997A /* EffiCareApp.swift */,
+				B3C137D22F7B542E0071997A /* HealthcarePinModel.swift */,
+				B3C137D32F7B542E0071997A /* HealthcareProviderViewModel.swift */,
+				B3C137D42F7B542E0071997A /* HealthcareProviderWelcomeView.swift */,
+				B3C137D52F7B542E0071997A /* LocationManager.swift */,
+				B3C137D62F7B542E0071997A /* LoginView.swift */,
+				B3C137D72F7B542E0071997A /* MapPageView.swift */,
+				B3C137D82F7B542E0071997A /* MapViewModel.swift */,
+				B3C137D92F7B542E0071997A /* MessageModel.swift */,
+				B3C137DA2F7B542E0071997A /* MessagesView.swift */,
+				B3C137DB2F7B542E0071997A /* MessageViewModel.swift */,
+				B3C137DC2F7B542E0071997A /* PatientConditionsView.swift */,
+				B3C137DD2F7B542E0071997A /* PatientsListView.swift */,
+				B3C137DE2F7B542E0071997A /* PatientsWelcomeView.swift */,
+				B3C137DF2F7B542E0071997A /* PatientViewModel.swift */,
+				B3C137E02F7B542E0071997A /* ProfileView.swift */,
+				B3C137E12F7B542E0071997A /* ProviderConditionDetailsView.swift */,
+				B3C137E22F7B542E0071997A /* SignUpView.swift */,
+				B3C137E32F7B542E0071997A /* UserModel.swift */,
+				B3C137E42F7B542E0071997A /* UserViewModel.swift */,
+			);
+			path = EffiCare;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B3601EC62EB416790060BA05 /* FinalProject */ = {
+		B3601EC62EB416790060BA05 /* EffiCare */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B3601EE82EB4167B0060BA05 /* Build configuration list for PBXNativeTarget "FinalProject" */;
+			buildConfigurationList = B3601EE82EB4167B0060BA05 /* Build configuration list for PBXNativeTarget "EffiCare" */;
 			buildPhases = (
 				B3601EC32EB416790060BA05 /* Sources */,
 				B3601EC42EB416790060BA05 /* Frameworks */,
@@ -107,19 +193,16 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				B3601EC92EB416790060BA05 /* FinalProject */,
-			);
-			name = FinalProject;
+			name = EffiCare;
 			packageProductDependencies = (
 			);
 			productName = FinalProject;
-			productReference = B3601EC72EB416790060BA05 /* FinalProject.app */;
+			productReference = B3601EC72EB416790060BA05 /* EffiCare.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B3601ED32EB4167B0060BA05 /* FinalProjectTests */ = {
+		B3601ED32EB4167B0060BA05 /* EffiCareTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B3601EEB2EB4167B0060BA05 /* Build configuration list for PBXNativeTarget "FinalProjectTests" */;
+			buildConfigurationList = B3601EEB2EB4167B0060BA05 /* Build configuration list for PBXNativeTarget "EffiCareTests" */;
 			buildPhases = (
 				B3601ED02EB4167B0060BA05 /* Sources */,
 				B3601ED12EB4167B0060BA05 /* Frameworks */,
@@ -131,18 +214,18 @@
 				B3601ED62EB4167B0060BA05 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				B3601ED72EB4167B0060BA05 /* FinalProjectTests */,
+				B3601ED72EB4167B0060BA05 /* EffiCareTests */,
 			);
-			name = FinalProjectTests;
+			name = EffiCareTests;
 			packageProductDependencies = (
 			);
 			productName = FinalProjectTests;
-			productReference = B3601ED42EB4167B0060BA05 /* FinalProjectTests.xctest */;
+			productReference = B3601ED42EB4167B0060BA05 /* EffiCareTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B3601EDD2EB4167B0060BA05 /* FinalProjectUITests */ = {
+		B3601EDD2EB4167B0060BA05 /* EffiCareUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B3601EEE2EB4167B0060BA05 /* Build configuration list for PBXNativeTarget "FinalProjectUITests" */;
+			buildConfigurationList = B3601EEE2EB4167B0060BA05 /* Build configuration list for PBXNativeTarget "EffiCareUITests" */;
 			buildPhases = (
 				B3601EDA2EB4167B0060BA05 /* Sources */,
 				B3601EDB2EB4167B0060BA05 /* Frameworks */,
@@ -154,13 +237,13 @@
 				B3601EE02EB4167B0060BA05 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				B3601EE12EB4167B0060BA05 /* FinalProjectUITests */,
+				B3601EE12EB4167B0060BA05 /* EffiCareUITests */,
 			);
-			name = FinalProjectUITests;
+			name = EffiCareUITests;
 			packageProductDependencies = (
 			);
 			productName = FinalProjectUITests;
-			productReference = B3601EDE2EB4167B0060BA05 /* FinalProjectUITests.xctest */;
+			productReference = B3601EDE2EB4167B0060BA05 /* EffiCareUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +269,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B3601EC22EB416790060BA05 /* Build configuration list for PBXProject "FinalProject" */;
+			buildConfigurationList = B3601EC22EB416790060BA05 /* Build configuration list for PBXProject "EffiCare" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +283,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B3601EC62EB416790060BA05 /* FinalProject */,
-				B3601ED32EB4167B0060BA05 /* FinalProjectTests */,
-				B3601EDD2EB4167B0060BA05 /* FinalProjectUITests */,
+				B3601EC62EB416790060BA05 /* EffiCare */,
+				B3601ED32EB4167B0060BA05 /* EffiCareTests */,
+				B3601EDD2EB4167B0060BA05 /* EffiCareUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -212,6 +295,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3C138002F7B542E0071997A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +320,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3C137E62F7B542E0071997A /* ConditionDetailsView.swift in Sources */,
+				B3C137E72F7B542E0071997A /* ProviderConditionDetailsView.swift in Sources */,
+				B3C137E82F7B542E0071997A /* MapViewModel.swift in Sources */,
+				B3C137E92F7B542E0071997A /* PatientsWelcomeView.swift in Sources */,
+				B3C137EA2F7B542E0071997A /* EffiCareApp.swift in Sources */,
+				B3C137EB2F7B542E0071997A /* HealthcarePinModel.swift in Sources */,
+				B3C137EC2F7B542E0071997A /* SignUpView.swift in Sources */,
+				B3C137ED2F7B542E0071997A /* AddConditionView.swift in Sources */,
+				B3C137EE2F7B542E0071997A /* PatientsListView.swift in Sources */,
+				B3C137EF2F7B542E0071997A /* MessagesView.swift in Sources */,
+				B3C137F02F7B542E0071997A /* LoginView.swift in Sources */,
+				B3C137F12F7B542E0071997A /* PatientConditionsView.swift in Sources */,
+				B3C137F22F7B542E0071997A /* MessageModel.swift in Sources */,
+				B3C137F32F7B542E0071997A /* ProfileView.swift in Sources */,
+				B3C137F42F7B542E0071997A /* HealthcareProviderWelcomeView.swift in Sources */,
+				B3C137F52F7B542E0071997A /* MapPageView.swift in Sources */,
+				B3C137F62F7B542E0071997A /* PatientViewModel.swift in Sources */,
+				B3C137F72F7B542E0071997A /* HealthcareProviderViewModel.swift in Sources */,
+				B3C137F82F7B542E0071997A /* ContentView.swift in Sources */,
+				B3C137F92F7B542E0071997A /* AuthenticationViewModel.swift in Sources */,
+				B3C137FA2F7B542E0071997A /* UserViewModel.swift in Sources */,
+				B3C137FB2F7B542E0071997A /* ConditionModel.swift in Sources */,
+				B3C137FC2F7B542E0071997A /* ConditionsView.swift in Sources */,
+				B3C137FD2F7B542E0071997A /* MessageViewModel.swift in Sources */,
+				B3C137FE2F7B542E0071997A /* UserModel.swift in Sources */,
+				B3C137FF2F7B542E0071997A /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,12 +368,12 @@
 /* Begin PBXTargetDependency section */
 		B3601ED62EB4167B0060BA05 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B3601EC62EB416790060BA05 /* FinalProject */;
+			target = B3601EC62EB416790060BA05 /* EffiCare */;
 			targetProxy = B3601ED52EB4167B0060BA05 /* PBXContainerItemProxy */;
 		};
 		B3601EE02EB4167B0060BA05 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B3601EC62EB416790060BA05 /* FinalProject */;
+			target = B3601EC62EB416790060BA05 /* EffiCare */;
 			targetProxy = B3601EDF2EB4167B0060BA05 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -400,6 +510,7 @@
 				DEVELOPMENT_TEAM = XU6756AMF3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = EffiCare;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to show healthcare facilities near you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -412,7 +523,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Connor-Bly.FinalProject";
+				PRODUCT_BUNDLE_IDENTIFIER = "Connor-Bly.EffiCare";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -434,6 +545,7 @@
 				DEVELOPMENT_TEAM = XU6756AMF3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = EffiCare;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to show healthcare facilities near you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -446,7 +558,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Connor-Bly.FinalProject";
+				PRODUCT_BUNDLE_IDENTIFIER = "Connor-Bly.EffiCare";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -510,7 +622,7 @@
 				DEVELOPMENT_TEAM = XU6756AMF3;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Connor-Bly.FinalProjectUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Connor-Bly.EffiCareUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -530,7 +642,7 @@
 				DEVELOPMENT_TEAM = XU6756AMF3;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Connor-Bly.FinalProjectUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Connor-Bly.EffiCareUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -545,7 +657,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B3601EC22EB416790060BA05 /* Build configuration list for PBXProject "FinalProject" */ = {
+		B3601EC22EB416790060BA05 /* Build configuration list for PBXProject "EffiCare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B3601EE62EB4167B0060BA05 /* Debug */,
@@ -554,7 +666,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B3601EE82EB4167B0060BA05 /* Build configuration list for PBXNativeTarget "FinalProject" */ = {
+		B3601EE82EB4167B0060BA05 /* Build configuration list for PBXNativeTarget "EffiCare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B3601EE92EB4167B0060BA05 /* Debug */,
@@ -563,7 +675,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B3601EEB2EB4167B0060BA05 /* Build configuration list for PBXNativeTarget "FinalProjectTests" */ = {
+		B3601EEB2EB4167B0060BA05 /* Build configuration list for PBXNativeTarget "EffiCareTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B3601EEC2EB4167B0060BA05 /* Debug */,
@@ -572,7 +684,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B3601EEE2EB4167B0060BA05 /* Build configuration list for PBXNativeTarget "FinalProjectUITests" */ = {
+		B3601EEE2EB4167B0060BA05 /* Build configuration list for PBXNativeTarget "EffiCareUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B3601EEF2EB4167B0060BA05 /* Debug */,

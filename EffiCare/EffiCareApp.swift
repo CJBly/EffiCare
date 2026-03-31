@@ -8,7 +8,7 @@
 import SwiftUI
 import SwiftData
 @main
-struct FinalProjectApp: App {
+struct EffiCareApp: App {
     @Environment(\.modelContext) private var context
     @State private var showLogin = true
     var body: some Scene {
