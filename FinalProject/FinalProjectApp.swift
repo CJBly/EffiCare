@@ -6,12 +6,15 @@
 //
 
 import SwiftUI
-
+import SwiftData
 @main
 struct FinalProjectApp: App {
+    @Environment(\.modelContext) private var context
+    @State private var showLogin = true
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(showLogin: $showLogin)
+                .modelContainer(for: [User.self, Condition.self, Message.self])
         }
     }
 }
