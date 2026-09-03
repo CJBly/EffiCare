@@ -1,6 +1,5 @@
 //
 //  LocationManager.swift
-//  FinalProject
 //
 //  Created by Connor Bly on 10/30/25.
 //
