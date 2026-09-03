@@ -3,26 +3,26 @@ Efficare is an iOS mobile application built with SwiftUI and SwiftData that prov
 
 ## Features
 ### Patient
-Patient account login and signup
-View and manage medical conditions
-Add new conditions - with description and severity slider
-View condition details
-Communicate with healthcare providers through messaging
-View healthcare locations on a map
-Manage profile information
+Patient account login and signup. 
+View and manage medical conditions. 
+Add new conditions - with description and severity slider. 
+View condition details. 
+Communicate with healthcare providers through messaging. 
+View healthcare locations on a map. 
+Manage profile information. 
 
 ### Healthcare Provider
-Healthcare provider login
-View a list of patients
-View a patient's reported medical conditions
-View detailed condition information
-Communicate with patients through messaging
-Access profile and healthcare-related information
-View healthcare locations on a map
+Healthcare provider login. 
+View a list of patients. 
+View a patient's reported medical conditions. 
+View detailed condition information. 
+Communicate with patients through messaging. 
+Access profile and healthcare-related information. 
+View healthcare locations on a map. 
 
 ## Technologies
-Swift
-SwiftUI – User interface
+Swift 
+SwiftUI – User interface 
 SwiftData – Local data persistence
 MapKit – Map functionality
 CoreLocation – User location and location permissions
