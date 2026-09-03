@@ -1,6 +1,5 @@
 //
 //  MessagesView.swift
-//  FinalProject
 //
 //  Created by Connor Bly on 11/23/25.
 //
