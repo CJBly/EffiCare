@@ -21,7 +21,12 @@ struct ContentView: View {
     @Binding var showLogin: Bool
     var body: some View {
         NavigationView{
-            VStack{
+            VStack(spacing: 20){
+                VStack(spacing: 5){
+                    Text("Efficare")
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
+                }
                 Button("Log in as Patient"){
                     showLoginPatient = true;
                 }
@@ -46,7 +51,7 @@ struct ContentView: View {
             }
             .onAppear{
                 preloadTestUsers()
-                locationManager.requestPermission()
+                //locationManager.requestPermission()
             }
         }
     }

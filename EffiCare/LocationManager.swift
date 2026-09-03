@@ -23,7 +23,7 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
     
     func requestPermission(){
         locationManager.requestWhenInUseAuthorization()
-        locationManager.startUpdatingLocation()
+        //locationManager.startUpdatingLocation()
     }
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
         switch status{
@@ -32,6 +32,7 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
                 self.permissionDenied = true
             }
         case .authorizedWhenInUse, .authorizedAlways:
+            self.permissionDenied = false
             manager.startUpdatingLocation()
         default:
             break
