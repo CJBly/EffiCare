@@ -1,12 +1,8 @@
 //
 //  ContentView.swift
-//  FinalProject
 //
 //  Created by Connor Bly on 10/30/25.
 //
-//Attempted Firebase but counldn't get it to sync up properly. As such I am using only SwiftData
-//I have included a preset patient and healthcare provider sign in. This is at .onAppear()
-//For some reason the mapping is acting weird. You have to click the |> button in the xcode terminal as the LocationManager is denied. This is despite not being in the mapping tab where it requests for permission
 import SwiftUI
 import MapKit
 import CoreLocation
