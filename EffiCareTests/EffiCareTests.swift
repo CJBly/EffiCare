@@ -1,6 +1,5 @@
 //
-//  FinalProjectTests.swift
-//  FinalProjectTests
+//  EffiCareTests.swift
 //
 //  Created by Connor Bly on 10/30/25.
 //
