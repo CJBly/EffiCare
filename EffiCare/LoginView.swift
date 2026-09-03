@@ -1,6 +1,5 @@
 //
 //  LoginView.swift
-//  FinalProject
 //
 //  Created by Connor Bly on 11/22/25.
 //
