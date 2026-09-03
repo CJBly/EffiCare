@@ -3,41 +3,40 @@ Efficare is an iOS mobile application built with SwiftUI and SwiftData that prov
 
 ## Features
 ### Patient
-Patient account login and signup. 
-View and manage medical conditions. 
-Add new conditions - with description and severity slider. 
-View condition details. 
-Communicate with healthcare providers through messaging. 
-View healthcare locations on a map. 
-Manage profile information. 
+- Patient account login and signup
+- View and manage medical conditions 
+- Add new conditions - with description and severity slider 
+- View condition details
+- Communicate with healthcare providers through messaging
+- View healthcare locations on a map
+- Manage profile information
 
 ### Healthcare Provider
-Healthcare provider login. 
-View a list of patients. 
-View a patient's reported medical conditions. 
-View detailed condition information. 
-Communicate with patients through messaging. 
-Access profile and healthcare-related information. 
-View healthcare locations on a map. 
+- Healthcare provider login
+- View a list of patients
+- View a patient's reported medical conditions
+- View detailed condition information
+- Communicate with patients through messaging
+- Access profile and healthcare-related information
+- View healthcare locations on a map
 
 ## Technologies
-Swift 
-SwiftUI – User interface 
-SwiftData – Local data persistence
-MapKit – Map functionality
-CoreLocation – User location and location permissions
-Xcode
+- Swift 
+- SwiftUI – User interface 
+- SwiftData – Local data persistence
+- MapKit – Map functionality
+- CoreLocation – User location and location permissions
+- Xcode
 
 ## Test Accounts
-
 Efficare automatically creates two test accounts when the application is first launched.
 ### Patient
-Username: Patient1
-Password: 1369
+- Username: Patient1
+- Password: 1369
 
 ### Healthcare Provider
-Username: Provider1
-Password: abcd
+- Username: Provider1
+- Password: abcd
 
 These accounts are created for testing use.
 
@@ -66,8 +65,8 @@ The current version of Efficare does not require an external database or Firebas
 The application's model context is also used to preload the test patient and healthcare provider on first launch. Existing users are checked before the test accounts are inserted to prevent duplicate test data.
 
 ## Known Current Limitations
-Firebase integration is not currently implemented.
-Data is stored locally with SwiftData and therefore is not synchronized between devices.
-The application currently includes preset accounts primarily for demonstration and testing.
-Authentication is intended for project/demo purposes and should not be considered production-ready healthcare authentication.
-The application is a prototype and is not intended for handling real protected health information (PHI) without additional security, privacy, authentication, and backend infrastructure.
+- Firebase integration is not currently implemented.
+- Data is stored locally with SwiftData and therefore is not synchronized between devices.
+- The application currently includes preset accounts primarily for demonstration and testing.
+- Authentication is intended for project/demo purposes and should not be considered production-ready healthcare authentication.
+- The application is a prototype and is not intended for handling real protected health information (PHI) without additional security, privacy, authentication, and backend infrastructure.
