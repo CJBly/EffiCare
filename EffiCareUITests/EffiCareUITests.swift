@@ -1,6 +1,5 @@
 //
-//  FinalProjectUITests.swift
-//  FinalProjectUITests
+//  EfficareUITests.swift
 //
 //  Created by Connor Bly on 10/30/25.
 //
